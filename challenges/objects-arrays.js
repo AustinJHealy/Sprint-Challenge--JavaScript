@@ -95,7 +95,7 @@ The resulting contact information strings should have a space between the first 
 Log the result of your new array. */
 const contactInfo = [];
 
-graduates.forEach( function(graduates) { contactInfo.push(graduates.first_name+ " " + graduates.email)});
+graduates.forEach(graduates =>  contactInfo.push(graduates.first_name+ " " + graduates.email));
 
 console.log(contactInfo);
 
